@@ -134,12 +134,14 @@ export default function App() {
                 className="group relative bg-zinc-900/50 border border-white/5 rounded-2xl overflow-hidden cursor-pointer"
                 onClick={() => handleSelectGame(game)}
               >
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="aspect-[4/3] overflow-hidden bg-zinc-800/50 flex items-center justify-center p-6">
                   <img
                     src={game.thumbnail}
                     alt={game.title}
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className={`w-full h-full transition-transform duration-500 group-hover:scale-110 ${
+                      game.category === 'Community' ? 'object-contain' : 'object-cover'
+                    }`}
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                     <div className="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center shadow-xl shadow-emerald-500/40 transform translate-y-4 group-hover:translate-y-0 transition-transform">
