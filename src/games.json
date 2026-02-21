@@ -1,44 +1,9 @@
 [
   {
     "id": "1",
-    "title": "2048",
-    "url": "https://play2048.co/",
-    "thumbnail": "https://picsum.photos/seed/2048/400/300",
-    "category": "Puzzle"
-  },
-  {
-    "id": "2",
-    "title": "Hextris",
-    "url": "https://hextris.io/",
-    "thumbnail": "https://picsum.photos/seed/hextris/400/300",
+    "title": "Flappy Bird",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/flappybird.html",
+    "thumbnail": "https://picsum.photos/seed/flappybird/400/300",
     "category": "Arcade"
-  },
-  {
-    "id": "3",
-    "title": "Flappy Bird (Clone)",
-    "url": "https://flappybird.io/",
-    "thumbnail": "https://picsum.photos/seed/flappy/400/300",
-    "category": "Arcade"
-  },
-  {
-    "id": "4",
-    "title": "Doodle Jump (Clone)",
-    "url": "https://doodlejump.io/",
-    "thumbnail": "https://picsum.photos/seed/doodle/400/300",
-    "category": "Arcade"
-  },
-  {
-    "id": "5",
-    "title": "Pac-Man",
-    "url": "https://macek.github.io/google_pacman/",
-    "thumbnail": "https://picsum.photos/seed/pacman/400/300",
-    "category": "Classic"
-  },
-  {
-    "id": "6",
-    "title": "Snake",
-    "url": "https://patorjk.com/games/snake/",
-    "thumbnail": "https://picsum.photos/seed/snake/400/300",
-    "category": "Classic"
   }
 ]
