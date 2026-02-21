@@ -102,6 +102,7 @@ export default function App() {
                 onClick={() => handleSelectGame(game)}
               >
                 <div className={`aspect-[4/3] overflow-hidden bg-zinc-800/50 flex items-center justify-center ${
+                  game.id === 'sandspiel' ? 'p-2' : 
                   game.category === 'Community' ? 'p-6' : 'p-0'
                 }`}>
                   <img
@@ -109,7 +110,7 @@ export default function App() {
                     alt={game.title}
                     referrerPolicy="no-referrer"
                     className={`w-full h-full transition-transform duration-500 group-hover:scale-110 ${
-                      game.category === 'Community' ? 'object-contain' : 'object-cover'
+                      ['Community', 'sandspiel'].includes(game.id) || game.category === 'Community' ? 'object-contain' : 'object-cover'
                     }`}
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -128,7 +129,7 @@ export default function App() {
                     </span>
                   </div>
                   <p className="text-xs text-zinc-500">
-                    {game.id === 'request' ? 'Click to fill out instantly' : 'Click to play instantly'}
+                    {['request', 'report'].includes(game.id) ? 'Click to fill out instantly' : 'Click to play instantly'}
                   </p>
                 </div>
               </motion.div>
