@@ -15,13 +15,10 @@ export default function App() {
   }, [searchQuery]);
 
   const handleSelectGame = (game) => {
-    // Opens the cloaked tab for ALL items (including the request form)
     const win = window.open('about:blank', '_blank');
     if (win) {
-      // Set the tab title to your custom message
       win.document.title = 'DO NOT REFRESH';
       
-      // Create a clean document structure in the about:blank tab
       const doc = win.document;
       doc.body.style.margin = '0';
       doc.body.style.padding = '0';
@@ -43,7 +40,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-zinc-100 font-sans selection:bg-emerald-500/30">
-      {/* Header */}
       <header className="sticky top-0 z-40 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -72,21 +68,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* Mobile Search */}
-      <div className="md:hidden p-4 border-b border-white/5">
-        <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
-          <input
-            type="text"
-            placeholder="Search games..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-white/5 border border-white/10 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-emerald-500/50 transition-colors"
-          />
-        </div>
-      </div>
-
-      {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           <AnimatePresence mode="popLayout">
@@ -136,19 +117,8 @@ export default function App() {
             ))}
           </AnimatePresence>
         </div>
-
-        {filteredGames.length === 0 && (
-          <div className="text-center py-20">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/5 mb-4">
-              <Search className="w-8 h-8 text-zinc-600" />
-            </div>
-            <h3 className="text-xl font-medium text-zinc-300">No games found</h3>
-            <p className="text-zinc-500 mt-2">Try searching for something else</p>
-          </div>
-        )}
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-white/5 py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-6 opacity-50">
@@ -158,14 +128,6 @@ export default function App() {
           <p className="text-zinc-500 text-sm max-w-md mx-auto">
             A minimalist collection of high-quality web games. No ads, no tracking, just play.
           </p>
-          <div className="mt-8 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-zinc-600 text-xs">© 2026 Nexus Games. All rights reserved.</p>
-            <div className="flex gap-6">
-              <a href="#" className="text-zinc-600 hover:text-emerald-500 transition-colors text-xs">Privacy Policy</a>
-              <a href="#" className="text-zinc-600 hover:text-emerald-500 transition-colors text-xs">Terms of Service</a>
-              <a href="#" className="text-zinc-600 hover:text-emerald-500 transition-colors text-xs">Contact</a>
-            </div>
-          </div>
         </div>
       </footer>
     </div>
