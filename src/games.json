@@ -19,5 +19,12 @@
     "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/flappybird.html",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
     "category": "Arcade"
+  },
+  {
+    "id": "thisissand",
+    "title": "This Is Sand",
+    "url": "https://thisissand.com/",
+    "thumbnail": "https://thisiscentralstation.com/wp-content/uploads/2014/11/Thisissand_FI-440x213.jpg",
+    "category": "Creative"
   }
 ]
