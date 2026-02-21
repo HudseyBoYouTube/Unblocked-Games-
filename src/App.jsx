@@ -1,12 +1,10 @@
-import { useState, useMemo, useRef, useEffect } from 'react';
-import { Search, Gamepad2, X, Maximize2, Minimize2, Play } from 'lucide-react';
+import { useState, useMemo, useRef } from 'react';
+import { Search, Gamepad2, Play } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import gamesData from './games.json';
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedGame, setSelectedGame] = useState(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
   const gameContainerRef = useRef(null);
 
   const filteredGames = useMemo(() => {
@@ -17,54 +15,32 @@ export default function App() {
   }, [searchQuery]);
 
   const handleSelectGame = (game) => {
-    setSelectedGame(game);
-  };
-
-  useEffect(() => {
-    if (selectedGame && gameContainerRef.current) {
-      const enterFullscreen = async () => {
-        try {
-          if (gameContainerRef.current.requestFullscreen) {
-            await gameContainerRef.current.requestFullscreen();
-          } else if (gameContainerRef.current.webkitRequestFullscreen) {
-            await gameContainerRef.current.webkitRequestFullscreen();
-          } else if (gameContainerRef.current.msRequestFullscreen) {
-            await gameContainerRef.current.msRequestFullscreen();
-          }
-        } catch (err) {
-          console.error("Error attempting to enable full-screen mode:", err);
-        }
-      };
-      enterFullscreen();
+    if (game.id === 'request') {
+      window.open(game.url, '_blank');
+      return;
     }
-  }, [selectedGame]);
 
-  useEffect(() => {
-    const handleFullscreenChange = () => {
-      setIsFullscreen(!!document.fullscreenElement);
-      if (!document.fullscreenElement) {
-        setSelectedGame(null);
-      }
-    };
+    // Tab Cloaking Logic
+    const win = window.open('about:blank', '_blank');
+    if (win) {
+      win.document.title = game.title;
+      
+      const doc = win.document;
+      doc.body.style.margin = '0';
+      doc.body.style.padding = '0';
+      doc.body.style.overflow = 'hidden';
+      doc.body.style.backgroundColor = '#000';
 
-    document.addEventListener('fullscreenchange', handleFullscreenChange);
-    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
-    document.addEventListener('mozfullscreenchange', handleFullscreenChange);
-    document.addEventListener('MSFullscreenChange', handleFullscreenChange);
-
-    return () => {
-      document.removeEventListener('fullscreenchange', handleFullscreenChange);
-      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
-      document.removeEventListener('mozfullscreenchange', handleFullscreenChange);
-      document.removeEventListener('MSFullscreenChange', handleFullscreenChange);
-    };
-  }, []);
-
-  const toggleFullscreen = () => {
-    if (!document.fullscreenElement) {
-      gameContainerRef.current.requestFullscreen();
-    } else {
-      document.exitFullscreen();
+      const iframe = doc.createElement('iframe');
+      iframe.src = game.url;
+      iframe.style.width = '100vw';
+      iframe.style.height = '100vh';
+      iframe.style.border = 'none';
+      iframe.style.display = 'block';
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      
+      doc.body.appendChild(iframe);
     }
   };
 
@@ -171,74 +147,6 @@ export default function App() {
           </div>
         )}
       </main>
-
-      {/* Game Player Modal */}
-      <AnimatePresence>
-        {selectedGame && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black"
-          >
-            <div
-              ref={gameContainerRef}
-              className="w-full h-full flex flex-col bg-black"
-            >
-              {!isFullscreen && (
-                <div className="flex items-center justify-between px-6 py-4 border-b border-white/5 bg-zinc-900/50">
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 bg-emerald-500/10 rounded-lg flex items-center justify-center">
-                      <Gamepad2 className="w-4 h-4 text-emerald-500" />
-                    </div>
-                    <div>
-                      <h2 className="font-bold text-zinc-100">{selectedGame.title}</h2>
-                      <p className="text-[10px] text-zinc-500 uppercase tracking-widest">{selectedGame.category}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={toggleFullscreen}
-                      className="p-2 hover:bg-white/5 rounded-lg transition-colors text-zinc-400 hover:text-white"
-                    >
-                      <Maximize2 className="w-5 h-5" />
-                    </button>
-                    <button
-                      onClick={() => setSelectedGame(null)}
-                      className="p-2 hover:bg-white/5 rounded-lg transition-colors text-zinc-400 hover:text-white"
-                    >
-                      <X className="w-5 h-5" />
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {/* Game Iframe */}
-              <div className="flex-1 bg-black relative">
-                <iframe
-                  src={selectedGame.url}
-                  className="w-full h-full border-none"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                />
-                
-                {/* Floating Exit Button for Fullscreen */}
-                {isFullscreen && (
-                  <button
-                    onClick={() => document.exitFullscreen()}
-                    className="absolute top-6 right-6 flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-emerald-500 text-white hover:text-black rounded-full backdrop-blur-xl border border-white/10 transition-all duration-300 z-50 group shadow-2xl"
-                  >
-                    <X className="w-5 h-5" />
-                    <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap text-xs font-bold uppercase tracking-wider">
-                      Back to main page
-                    </span>
-                  </button>
-                )}
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-12 mt-20">
