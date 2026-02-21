@@ -26,5 +26,12 @@
     "url": "https://thisissand.com/",
     "thumbnail": "https://thisiscentralstation.com/wp-content/uploads/2014/11/Thisissand_FI-440x213.jpg",
     "category": "Creative"
+  },
+  {
+    "id": "sandspiel",
+    "title": "Sandspiel",
+    "url": "https://sandspiel.club/",
+    "thumbnail": "https://pbs.twimg.com/profile_images/1073861926097117184/FB3bBgcN_400x400.jpg",
+    "category": "Creative"
   }
 ]
