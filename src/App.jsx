@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { useState, useMemo, useRef, useEffect } from 'react';
 import { Search, Gamepad2, X, Maximize2, Minimize2, Play } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -23,7 +18,6 @@ export default function App() {
 
   const handleSelectGame = (game) => {
     setSelectedGame(game);
-    // We'll trigger fullscreen in a useEffect once the element is rendered
   };
 
   useEffect(() => {
@@ -134,7 +128,9 @@ export default function App() {
                 className="group relative bg-zinc-900/50 border border-white/5 rounded-2xl overflow-hidden cursor-pointer"
                 onClick={() => handleSelectGame(game)}
               >
-                <div className="aspect-[4/3] overflow-hidden bg-zinc-800/50 flex items-center justify-center p-6">
+                <div className={`aspect-[4/3] overflow-hidden bg-zinc-800/50 flex items-center justify-center ${
+                  game.category === 'Community' ? 'p-6' : 'p-0'
+                }`}>
                   <img
                     src={game.thumbnail}
                     alt={game.title}
@@ -189,7 +185,6 @@ export default function App() {
               ref={gameContainerRef}
               className="w-full h-full flex flex-col bg-black"
             >
-              {/* Modal Header - Hidden in true fullscreen usually, but kept for exit if browser fullscreen fails */}
               {!isFullscreen && (
                 <div className="flex items-center justify-between px-6 py-4 border-b border-white/5 bg-zinc-900/50">
                   <div className="flex items-center gap-3">
