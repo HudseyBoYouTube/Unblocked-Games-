@@ -1,5 +1,5 @@
-import { useState, useMemo, useRef } from 'react';
-import { Search, Gamepad2, Play } from 'lucide-react';
+import { useState, useMemo, useRef, useEffect } from 'react';
+import { Search, Gamepad2, X, Maximize2, Minimize2, Play } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import gamesData from './games.json';
 
@@ -15,16 +15,13 @@ export default function App() {
   }, [searchQuery]);
 
   const handleSelectGame = (game) => {
-    if (game.id === 'request') {
-      window.open(game.url, '_blank');
-      return;
-    }
-
-    // Tab Cloaking Logic
+    // Opens the cloaked tab for ALL items (including the request form)
     const win = window.open('about:blank', '_blank');
     if (win) {
-      win.document.title = game.title;
+      // Set the tab title to your custom message
+      win.document.title = 'DO NOT REFRESH';
       
+      // Create a clean document structure in the about:blank tab
       const doc = win.document;
       doc.body.style.margin = '0';
       doc.body.style.padding = '0';
@@ -130,7 +127,9 @@ export default function App() {
                       {game.category}
                     </span>
                   </div>
-                  <p className="text-xs text-zinc-500">Click to play instantly</p>
+                  <p className="text-xs text-zinc-500">
+                    {game.id === 'request' ? 'Click to fill out instantly' : 'Click to play instantly'}
+                  </p>
                 </div>
               </motion.div>
             ))}
