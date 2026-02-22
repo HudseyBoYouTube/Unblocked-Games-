@@ -45,7 +45,7 @@ function App() {
             <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center shadow-lg shadow-emerald-500/20">
               <Gamepad2 className="w-5 h-5 text-black" />
             </div>
-            <span className="text-xl font-bold tracking-tight">NEXUS<span className="text-emerald-500">GAMES</span></span>
+            <span className="text-xl font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
           </div>
 
           <div className="relative flex-1 max-w-md mx-8 hidden md:block">
@@ -122,10 +122,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-6 opacity-50">
             <Gamepad2 className="w-5 h-5" />
-            <span className="text-lg font-bold tracking-tight">NEXUS<span className="text-emerald-500">GAMES</span></span>
+            <span className="text-lg font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
           </div>
           <p className="text-zinc-500 text-sm max-w-md mx-auto">
-            A minimalist collection of high-quality web games. No ads, no tracking, just play.
+            Best website to play unblocked games when you are bored in class.
           </p>
         </div>
       </footer>
