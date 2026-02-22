@@ -98,10 +98,514 @@
     "category": "Strategy"
   },
   {
-    "id": "clusterrush",
+    "id": "cluster-rush",
     "title": "Cluster Rush",
     "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/clusterrush.html",
-    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0SQVNS3YufqXRNRqmZ9ABlmPxIltomkx3JW9VPn-KliVCrKLQ6qBD_ymoUI1gt3IOgmR3DW7BTX-7JhVY3uF1SUtLZuBEl38doma5X85KxLZeXoToOqWUjlC3hYhvu0KodJ37RQKUZx29fC80CBzOvsN6FpNDHDwUqSRs5wjBgkkgr9cl5mQOpGS_6c=w1280",
+    "thumbnail": "https://nargames.com/storage/uploads/thumbs/cluster-rush.webp",
     "category": "Platformer"
+  },
+  {
+    "id": "snowrider3d",
+    "title": "Snow Rider 3d",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/snowrider3d.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0STXvR0GMZ9BI6SQh8t7_Exml6t67N_XKBriIhBcR3oAqixfwV092TlRZxurqRQYzdaSv_sRyx1RxuVM1yTV0jfHA6-VFfdwhDZl2lFp4wPt5ye9lhWbcdsvB6F3MQADJOch5IawNc9icYowLqDD9dnymd2Bys7Hb93YuUT_NbtNNzG1T8DYIYTJ=w1280",
+    "category": "Arcade"
+  },
+  {
+    "id": "racesurvivalking",
+    "title": "Race Survival King",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/survivalrace.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/v8DF9ES0s_EE1QQ07EW4ucVf9MSwXl7OPlloRZQg1WWf0tPe-zE_N6vGHfY8qtL8cWs",
+    "category": "Survival"
+  },
+  {
+    "id": "stickmanhook",
+    "title": "Stickman Hook",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/stickmanhook.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/yXqBI1Vb1b-xjwmXLE2T7FQbgHIxfvjze1b6jO2aLHfy8Y8ta7NFSEVqZoPHtM2Ajyrl",
+    "category": "Platformer"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/slope1.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/uJn2i9h7KxYQarC_c3K4qH6o7gLtflFnhD_dN14MNkzHJ1NeNFzCL69jpB5mT0vCoQs",
+    "category": "Arcade"
+  },
+  {
+    "id": "ragdollarchers",
+    "title": "Ragdoll Archers",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/ragdollarchers.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/XMiWEMPbuq13oVcwYQ6ySLtZnBf7WpJ3rb7v-TM4MdFOvWfo1Z2hzSEAApRXzEcshjY",
+    "category": "Action"
+  },
+  {
+    "id": "ragdollhit",
+    "title": "Ragdoll Hit",
+    "url": "https://hoverfc.com/assets/storage/html/raghit",
+    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/3c892779be9dabb3589586c83ad3eeed/ragdoll-hit.png",
+    "category": "Action"
+  },
+  {
+    "id": "eggycar",
+    "title": "Eggy Car",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/eggycar.html",
+    "thumbnail": "https://www.coolmathgames.com/sites/default/files/eggy-car-game-icon_0.png",
+    "category": "Skill"
+  },
+  {
+    "id": "drivemad",
+    "title": "Drive Mad",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/drivemad.html",
+    "thumbnail": "https://drivemadgame.cc/uploads/games/main/img_68c3e328e0294.jpg",
+    "category": "Driving"
+  },
+  {
+    "id": "ovo",
+    "title": "OvO",
+    "url": "https://landon.infotechnology.com/games/ovo/index.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/v7KwGdPjJGjJjRXn46sck4DwDBdKSeRzGN44CjiXUtKV0jjOi51Bt4wcXud0m-SkXg",
+    "category": "Platformer"
+  },
+  {
+    "id": "ovodimensions",
+    "title": "OvO Dimensions",
+    "url": "https://landon.infotechnology.com/games/OvoDimensions/index.html",
+    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/4f967f68314c35872eeab27c849d32c4/ovo-dimensions.png",
+    "category": "Platformer"
+  },
+  {
+    "id": "monkeymart",
+    "title": "Monkey Mart",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/monkeymart.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/rWReIdyvDaYJPeOxn7hbC0b-96ixGpQKM_EndiQa3SUME8TtI_rNUcI4qsw5teK9mqk=w240-h480-rw",
+    "category": "Casual"
+  },
+  {
+    "id": "asmallworldcup",
+    "title": "A Small World Cup",
+    "url": "https://landon.infotechnology.com/gamefile/aswc.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0SQYybXwygD0yoFVPjQ9Y-gBdRdzG81iKIVPggSwxk2aFeIf7JWUjwuMfVpljdT2d0BuZcdpjTLVsed35SpU_UGiT6MNcwMaWhTI_390v1I0bo2bvOAfY-WmtMoJcUe1wePEoQ58I-e6aqM8BYTFlwi95y5tTu52_QXMLPpIu1kBVIFvSPRVdAiL0HQ=w1280",
+    "category": "Sports"
+  },
+  {
+    "id": "retro bowl",
+    "title": "Retro Bowl",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/33.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0SRyogMDZlqeX8f_DQ9e6Ybzd3U12J-kIp7ym64QEZ-lz60PsZfgDON1m4XgXibR7idjUMObwxIbMYLgqP8XLtbMAVIgoPXw5DRAgwqGqfvjgopIzO-1HgQ6oLfmCfdMdF1Jjh0Fb2INxvdvSggJga_fjKrLtl6_ZKcP54H-MQD0JihSbkRDXUjE2hU=w1280",
+    "category": "Sports"
+  },
+  {
+    "id": "retrobowlcollege",
+    "title": "Retro Bowl College",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/retrobowlcollege.html",
+    "thumbnail": "https://play-lh.googleusercontent.com/-BT8C-1UPYWouyjVvWYgaar_-xV4IQvX4Bvib3koGEGiy6UsHlt0RgYpUrdTDfC2y0ct=w240-h480-rw",
+    "category": "Sports"
+  },
+  {
+    "id": "gunspin",
+    "title": "GunSpin",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/gunspingame.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0SS8MXMyctFfwHTU-_5g_TKNYaMiPSR7pYWxoIZ-HE_93iMRsaKPjxK-p5ajAtj9sQyCM44Mp4GLe54srT8CYyyA0KaB-wDrtDLB_hYoGz2sQPbK6guGC6uFh5-NR5j0wYtcUd99SEApiWfDW2koW6DhldTQ26tJdBGBCzY1sZNnYLIDNO61TYYh26M=w1280",
+    "category": "Arcade"
+  },
+  {
+    "id": "idlebreakout",
+    "title": "Idle Breakout",
+    "url": "https://solidwriting.itafricagroup.com/books/files/idle-breakout/index.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0STS82pu7FoXCGfrt5NclgDJmYEji8aQxGBO3KgKarUrNR7JmaWSzKabdY2WHR1OC1h56j2Mw7bgM42WtiOQ8ReAuBP0B-NM2xjjbUWd0ndt805dcWMtyWfaL5LtRNlcz1nuqSrJwt207feCbMj1f99qMpoqblcxODHRFEG2ZR57-e1b3KZS0k-xEqM=w1280",
+    "category": "Idle"
+  },
+  {
+    "id": "rooftopsnipers",
+    "title": "Rooftop Snipers",
+    "url": "https://solidwriting.itafricagroup.com/books/files/rooftop-snipers/index.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0STTiUWKdBMSBwhETusYpd8dXIHTR38YtV2Z8J592sIPSdwekk1RzWctlWupfAKc2eAJ1JS1zjNkgX6_8yhREfitbC4kvzQoWGd6YLOCi1obBwOnaRhyomaZTTnq3mK3pnVfZ2kMwMk6pZs7JBWv23LScCYkrB1hf6ShBc7IQaSp8m5nGUoRqZrVz1g=w1280",
+    "category": "Action"
+  },
+  {
+    "id": "getawayshootout",
+    "title": "Getaway Shootout",
+    "url": "https://script.google.com/macros/s/AKfycbwHKYphUKLbxkpjFx_EWO__M8-hH8mMrlAQWcJVN3squSkph0M3Bb7u7myZzYAbmyeQTA/exec",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0SRFAbkLRMU3Eikq0YKr8PC4bwVmZBEC3cwDFIv3POpcjFVwiGrdZXqwZpOcBxFi7J40BAs2ZXwNOXSdbKEaL_E-kqvSZc5z4cKGIVtsKeFNeb15IcFqsbBgvgNxJF0AI_1V7nFJ86EXqbkcM6ls6ZQfaw6BB-AcXktsPmD10Ei12wu_gBJTztSg6Hk=w1280",
+    "category": "Action"
+  },
+  {
+    "id": "paper.io2",
+    "title": "Paper.io 2",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/102.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0SSFW71yvToxAOs-JYjNmNCav_tKcZjAGfcRuT_qPwI7oNtKbDmRA6yL_uxpZ_lT41t-igpIddo3IxkxbmiEshwKzq5Rqcc9cHN5EH-vq0CItNpymRdHWlAOne3tGjLavKVxZJerlbiqm8ykcSUdnq3WYdRXvo9pytLpYCrRmqaJayvINIrO8wr-=w1280",
+    "category": "Arcade"
+  },
+  {
+    "id": "tinyfishing",
+    "title": "Tiny Fishing",
+    "url": "https://solidwriting.itafricagroup.com/books/files/tiny-fishing/index.html",
+    "thumbnail": "https://lh3.googleusercontent.com/sitesv/APaQ0STn2LX8Ka907MTnRISyfxHZsD3f1aqBzPGmpK9_mNmOavbgCPEMMNOrWPCTWl0386Om4nzgYlLWcu6H3GpBrBF2nROqhSl1GQuHKmMIg96wKtWLZmsKWsmLPVnWXkywUchVD-pyPKy8Lsqf3nmFL7amllHWEKmoCF3JsmzNirF2a1yUsMjPbI6ixoo=w1280",
+    "category": "Skill"
+  },
+  {
+    "id": "baldi's basics",
+    "title": "Baldi's Basics",
+    "url": "https://solidwriting.itafricagroup.com/books/files/baldis-basics/index.html",
+    "thumbnail": "https://fontmeme.com/images/badis-basics-font.png",
+    "category": "Skill"
+  },
+  {
+    "id": "noobsteveparkour",
+    "title": "Noob Steve Parkour",
+    "url": "https://solidwriting.itafricagroup.com/books/files/noob-steve-parkour/index.html",
+    "thumbnail": "https://games.kidzsearch.com/computer/thumbs/gamemntze-noob-steve-nether-24316-img.png",
+    "category": "Parkour"
+  },
+  {
+    "id": "bloonstd",
+    "title": "Bloons TD",
+    "url": "https://db.duck.deepresearch2markdown.com/html/bloonstd/",
+    "thumbnail": "https://imgs.crazygames.com/auto-covers/bloons-tower-defense_1x1.jpg?format=auto&quality=70&metadata=none",
+    "category": "Strategy"
+  },
+  {
+    "id": "bloonstd2",
+    "title": "Bloons TD 2",
+    "url": "https://db.duck.deepresearch2markdown.com/html/bloonstd2/",
+    "thumbnail": "https://assets-prd.ignimgs.com/2024/04/26/bloonstd2-1714172517746.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "bloonstd3",
+    "title": "Bloons TD 3",
+    "url": "https://db.duck.deepresearch2markdown.com/html/bloonstd3/",
+    "thumbnail": "https://imgs.crazygames.com/auto-covers2/bloons-tower-defense-3_1x1.png?format=auto&quality=70&metadata=none",
+    "category": "Strategy"
+  },
+  {
+    "id": "bloonstd4",
+    "title": "Bloons TD 4",
+    "url": "https://service.fcpchurch.org/assets/storage/flash/btd4/",
+    "thumbnail": "https://gameforge.com/de-DE/littlegames/includes/images/games/13426_5ec634fec15e3.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "bloonstd5",
+    "title": "Bloons TD 5",
+    "url": "https://service.fcpchurch.org/assets/storage/flash/btd5/",
+    "thumbnail": "https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-256776-52.jpg",
+    "category": "Strategy"
+  },
+  {
+    "id": "deadlydecent",
+    "title": "Deadly Decent",
+    "url": "https://db.duck.deepresearch2markdown.com/html/deadly_descent/",
+    "thumbnail": "https://imgs.crazygames.com/deadly-descent-bzs_1x1/20250818071830/deadly-descent-bzs_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    "category": "Driving"
+  },
+  {
+    "id": "dune",
+    "title": "Dune",
+    "url": "https://db.duck.deepresearch2markdown.com/html/dune/",
+    "thumbnail": "https://cdn.aptoide.com/imgs/0/f/a/0faa6de9c6fbd892baa4732fc67f980a_screen.png",
+    "category": "Skill"
+  },
+  {
+    "id": "polytrack",
+    "title": "PolyTrack",
+    "url": "https://db.duck.deepresearch2markdown.com/html/polytrack/",
+    "thumbnail": "https://gitlab.com/uploads/-/system/user/avatar/24965590/avatar.png",
+    "category": "Driving"
+  },
+  {
+    "id": "idleants",
+    "title": "Idle Ants",
+    "url": "https://db.duck.deepresearch2markdown.com/html/idle_ants/",
+    "thumbnail": "https://nargames.com/storage/uploads/thumbs/idle-ants.webp",
+    "category": "Idle"
+  },
+  {
+    "id": "leveldevil",
+    "title": "Level Devil",
+    "url": "https://db.duck.deepresearch2markdown.com/html/level_devil/",
+    "thumbnail": "https://store-images.s-microsoft.com/image/apps.10593.14411882092909650.e59c3c06-872a-420e-9804-eb29fddbff61.77661cd9-b4c3-4816-bc9a-019ff9af1073?h=210",
+    "category": "Platformer"
+  },
+  {
+    "id": "escapecar",
+    "title": "Escape Car",
+    "url": "https://db.duck.deepresearch2markdown.com/html/escape_car/",
+    "thumbnail": "https://azgames.io/upload/imgs/escaperoad.png",
+    "category": "Driving"
+  },
+  {
+    "id": "blockblast",
+    "title": "Block Blast (fake)",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/6.html",
+    "thumbnail": "https://dn720704.ca.archive.org/0/items/Block_Blast_1.0.0_ios_10.0/appstore_icon_1742084968.jpg",
+    "category": "Puzzle"
+  },
+  {
+    "id": "icedodo",
+    "title": "Ice Dodo",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/5.html",
+    "thumbnail": "https://imgs.crazygames.com/auto-covers/ice-dodo_1x1?format=auto&quality=70&metadata=none",
+    "category": "Arcade"
+  },
+  {
+    "id": "adventurecapitalist",
+    "title": "AdVenture Capitalist",
+    "url": "https://service.fcpchurch.org/assets/storage/webgl/adcap/",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/f/f3/AdVenture_Capitalist_%28App_Icon%29.jpg/revision/latest?cb=20220627125253",
+    "category": "Idle"
+  },
+  {
+    "id": "baconmaydie",
+    "title": "Bacon May Die",
+    "url": "https://hoverfc.com/assets/storage/webgl/bmd/",
+    "thumbnail": "https://cdn.aptoide.com/imgs/4/b/f/4bf1fc547444d5f37d79fa3aba07321a_icon.png",
+    "category": "Action"
+  },
+  {
+    "id": "spacewaves",
+    "title": "Space Waves",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/117.html",
+    "thumbnail": "https://imgs.crazygames.com/space-waves_1x1/20241203031650/space-waves_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    "category": "Skill"
+  },
+  {
+    "id": "bigshotboxing",
+    "title": "Bix Shot Boxing",
+    "url": "https://service.fcpchurch.org/assets/storage/html/bsb/",
+    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/cd1782b250f70b01d6c054fc6e6ae258683dfc3eb657604d9986495403e4d671/big-shot-boxing.png",
+    "category": "Sports"
+  },
+  {
+    "id": "escaperoad",
+    "title": "Escape Road",
+    "url": "https://service.fcpchurch.org/assets/storage/html/eroad/",
+    "thumbnail": "https://imgs.crazygames.com/escape-road-asm_1x1/20250724105032/escape-road-asm_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    "category": "Driving"
+  },
+  {
+    "id": "escaperoad2",
+    "title": "Escape Road 2",
+    "url": "https://service.fcpchurch.org/assets/storage/html/eroad2/",
+    "thumbnail": "https://imgs.crazygames.com/escape-road-2_1x1/20251121100622/escape-road-2_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    "category": "Driving"
+  },
+  {
+    "id": "linerider",
+    "title": "Line Rider",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/95.html",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Bosh.svg/250px-Bosh.svg.png",
+    "category": "Creative"
+  },
+  {
+    "id": "spacebarclicker",
+    "title": "Spacebar Clicker",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/473.html",
+    "thumbnail": "https://1games.io/data/image/game/spacebar-clicker/banner/spacebar-clicker.png",
+    "category": "Idle"
+  },
+  {
+    "id": "tubejumpers",
+    "title": "Tube Jumpers",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/111.html",
+    "thumbnail": "https://cdn-1.webcatalog.io/catalog/poki-tube-jumpers/poki-tube-jumpers-icon-filled-256.png?v=1714779575173",
+    "category": "Action"
+  },
+  {
+    "id": "snowball.io",
+    "title": "Snowball.io (fake)",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/207.html",
+    "thumbnail": "https://www.mathnook.com/img/addthis-fun-games/snowball-io-200x200.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "sliceitall!",
+    "title": "Slice It All!",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/128.html",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/4/4d/SliceItAllAppIcon.png/revision/latest?cb=20210605112105",
+    "category": "Skill"
+  },
+  {
+    "id": "vex",
+    "title": "Vex",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/45.html",
+    "thumbnail": "https://i.ytimg.com/vi/BgaG9avGnz0/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHeA4AC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLBDt-Afs-dyIejfBDVOJ_sQTLRw4A",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex2",
+    "title": "Vex 2",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/46.html",
+    "thumbnail": "https://yepicdn.com/system/static/thumbs/tile_thumb/1119/thumb150_vex-2.jpg?1492006228",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex3",
+    "title": "Vex 3",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/47.html",
+    "thumbnail": "https://cdn2.steamgriddb.com/thumb/a95cca70410750703e390cd3877c3fca.jpg",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex3xmas",
+    "title": "Vex 3 Xmas",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/48.html",
+    "thumbnail": "https://www.mathnook.com/img/addthis-fun-games/vex-3-xmas-200x200.png",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex4",
+    "title": "Vex 4",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/49.html",
+    "thumbnail": "https://www.contezero.com/user/pages/03.games/01.action/vex-4/VEX4.jpg",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex5",
+    "title": "Vex 5",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/50.html",
+    "thumbnail": "https://img.gamedistribution.com/f120262ab72743039fbce88c1f370df8-512x512.jpg",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex6",
+    "title": "Vex 6",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/51.html",
+    "thumbnail": "https://img.gamedistribution.com/4925e12574364121a48c61c35f649c36-512x512.jpeg",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex7",
+    "title": "Vex 7",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/52.html",
+    "thumbnail": "https://img.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c-512x512.jpg",
+    "category": "Platformer"
+  },
+  {
+    "id": "vex8",
+    "title": "Vex 8",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/53.html",
+    "thumbnail": "https://epiconlinegames.com/wp-content/uploads/2025/10/Vex-8.webp",
+    "category": "Platformer"
+  },
+  {
+    "id": "bitplanes",
+    "title": "Bit Planes",
+    "url": "https://lum.815moniquelane.cfd/projects/id330/index.html",
+    "thumbnail": "https://imgr2.ant.games/220x220/games/bit-planes/s307x310-1751620350.png",
+    "category": "Action"
+  },
+  {
+    "id": "crossyroad",
+    "title": "Crossy Road",
+    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/24.html",
+    "thumbnail": "https://img.favpng.com/2/4/17/crossy-road-video-game-android-png-favpng-LUV7P94dQzTBk3Jj2TYXFnTEH.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "drawjoust",
+    "title": "Draw Joust",
+    "url": "https://lum.815moniquelane.cfd/projects/id387/index.html",
+    "thumbnail": "https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-748295-52.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "superhot",
+    "title": "SUPERHOT",
+    "url": "https://lum.815moniquelane.cfd/projects/superhot/index.html",
+    "thumbnail": "https://i.kickstarter.com/assets/011/609/376/9118166d49e15455e574b7b5c20d2a96_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&v=1463685320&width=1552&sig=Efko%2B7rQH7l6LdYUzUZSyASZ4r0cAhRqWLCibHOnYpA%3D",
+    "category": "Action"
+  },
+  {
+    "id": "geometrydashlite",
+    "title": "Geometry Dash Lite",
+    "url": "https://lum.815moniquelane.cfd/projects/id27/index.html",
+    "thumbnail": "https://geometrydashspam.com/media/uploads/games/thumb/geometry-dash-lite.webp",
+    "category": "Skill"
+  },
+  {
+    "id": "minecraft(fake)",
+    "title": "Minecraft (fake)",
+    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/minecraft1.8.8.html",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/f/f9/Minecraft_Bedrock_icon.svg/revision/latest/scale-to-width-down/250?cb=20230924021517",
+    "category": "Creative"
+  },
+  {
+    "id": "raftwars",
+    "title": "Raft Wars",
+    "url": "https://landon.infotechnology.com/games/raft-wars/index.html",
+    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/d2a3bbd1bb8aea542835f4f8a353d388/raft-wars.png",
+    "category": "Action"
+  },
+  {
+    "id": "raftwars2",
+    "title": "Raft Wars 2",
+    "url": "https://landon.infotechnology.com/games/raft-wars-2/index.html",
+    "thumbnail": "https://howlongtobeat.com/games/52423_Raft_Wars_2.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "stealabrainrot(fake)",
+    "title": "Steal a Brainrot (fake)",
+    "url": "https://lum.815moniquelane.cfd/projects/id479/index.html",
+    "thumbnail": "https://assets-prd.ignimgs.com/2025/08/28/steal-a-brainrot-button-1756389161332.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80",
+    "category": "Brainrot"
+  },
+  {
+    "id": "putinontheritz",
+    "title": "Putin on the Ritz",
+    "url": "https://lum.815moniquelane.cfd/projects/ritz/index.html",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Putin_on_the_Ritz.jpg/250px-Putin_on_the_Ritz.jpg",
+    "category": "Meme"
+  },
+  {
+    "id": "growagarden(fake)",
+    "title": "Grow A Garden (fake)",
+    "url": "https://hoverfc.com/assets/storage/webgl/gag/",
+    "thumbnail": "https://tr.rbxcdn.com/180DAY-13f9b6cdbeedf883c11e3a04af13d7a5/420/420/Hat/Webp/noFilter",
+    "category": "Casual"
+  },
+  {
+    "id": "doodlejump",
+    "title": "Doodle Jump",
+    "url": "https://landon.infotechnology.com/gamefile/Doodle%20Jump.html",
+    "thumbnail": "https://assets-prd.ignimgs.com/2022/03/16/doodlejump-1647405974576.jpg",
+    "category": "Arcade"
+  },
+  {
+    "id": "learn2fly",
+    "title": "Learn 2 Fly",
+    "url": "https://landon.infotechnology.com/games/learntofly/index.html",
+    "thumbnail": "https://e.snmc.io/lk/lv/x/77e0aedce501ea412351ef15386c75e4/9441677",
+    "category": "Arcade"
+  },
+  {
+    "id": "don'tyoulecturemewithyourthirtydollarwebsite",
+    "title": "THIRTY DOLLAR",
+    "url": "https://landon.infotechnology.com/games/30dolar/index.html",
+    "thumbnail": "https://em-content.zobj.net/source/apple/81/moyai_1f5ff.png",
+    "category": "Soundboard"
+  },
+  {
+    "id": "dogeminer",
+    "title": "Doge Miner",
+    "url": "https://landon.infotechnology.com/gamefile/Doge%20Miner.html",
+    "thumbnail": "https://www.dolldivine.com/images/doge-coin-miner-game.png",
+    "category": "Idle"
+  },
+  {
+    "id": "slowroads",
+    "title": "Slow Roads",
+    "url": "https://landon.infotechnology.com/games/slowroads/index.html",
+    "thumbnail": "https://cdn-1.webcatalog.io/catalog/slow-roads/slow-roads-icon-filled-256.png?v=1714780308395",
+    "category": "Driving"
+  },
+  {
+    "id": "skibidishooter",
+    "title": "Skibidi Shooter",
+    "url": "https://landon.infotechnology.com/games/skibidi-shooter/index.html",
+    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/05cee9fd5cd50ccced66cd992dffeb1b/skibidi-shooter.png",
+    "category": "Brainrot"
   }
 ]
