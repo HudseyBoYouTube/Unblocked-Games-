@@ -10,7 +10,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     // This base path is CRUCIAL for GitHub Pages to find your files
-    base: '/Unblocked-Games-/', 
+    base: '/', 
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
