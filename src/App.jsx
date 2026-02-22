@@ -125,7 +125,7 @@ function App() {
             <span className="text-lg font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
           </div>
           <p className="text-zinc-500 text-sm max-w-md mx-auto">
-            Best website to play unblocked games when you are bored in class.
+            A perfect place to play unblocked games in class.
           </p>
         </div>
       </footer>
