@@ -45,7 +45,7 @@ function App() {
             <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center shadow-lg shadow-emerald-500/20">
               <Gamepad2 className="w-5 h-5 text-black" />
             </div>
-            <span className="text-xl font-bold tracking-tight">NEXUS<span className="text-emerald-500">GAMES</span></span>
+            <span className="text-xl font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
           </div>
 
           <div className="relative flex-1 max-w-md mx-8 hidden md:block">
