@@ -565,5 +565,47 @@
     "url": "https://landon.infotechnology.com/games/skibidi-shooter/index.html",
     "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/05cee9fd5cd50ccced66cd992dffeb1b/skibidi-shooter.png",
     "category": "Brainrot"
-  }
+  },
+  {
+    "id": "csgoclicker",
+    "title": "CS:GO Clicker",
+    "url": "https://hoverfc.com/assets/storage/html/csgoc/",
+    "thumbnail": "https://avatars.githubusercontent.com/u/39322951?s=280&v=4",
+    "category": "Idle"
+  },
+  {
+    "id": "drifthunters",
+    "title": "Drift Hunters",
+    "url": "https://hoverfc.com/assets/storage/html/dhunters/",
+    "thumbnail": "https://drift-hunters.io/data/image/drift-hunters.png",
+    "category": "Driving"
+  },
+  {
+    "id": "happywheels",
+    "title": "Happy Wheels",
+    "url": "https://hoverfc.com/assets/storage/flash/hw/",
+    "thumbnail": "https://assets-prd.ignimgs.com/2023/12/31/happywheels-1703990751545.jpg",
+    "category": "Action"
+  },
+  {
+    "id": "footballlegends",
+    "title": "Football Legends",
+    "url": "https://hoverfc.com/assets/storage/html/ftbl/",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWCP2j9Z4aMeCtJBLVtW82yekVi00GEZ1Jw&s",
+    "category": "Sports"
+  },
+  {
+    "id": "bloxorz",
+    "title": "Bloxorz",
+    "url": "https://hoverfc.com/assets/storage/flash/bloxorz/",
+    "thumbnail": "https://www.coolmathgames.com/sites/default/files/bloxorz-game-icon.png",
+    "category": "Puzzle"
+  },
+  {
+    "id": "driftboss",
+    "title": "Drift Boss",
+    "url": "https://hoverfc.com/assets/storage/html/dboss/",
+    "thumbnail": "https://avatars.githubusercontent.com/u/178060583?v=4",
+    "category": "Driving"
+  },
 ]
