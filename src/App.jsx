@@ -1,4 +1,3 @@
-
 import { useState, useMemo } from 'react';
 import { Search, Gamepad2, Play } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -43,10 +42,12 @@ function App() {
       <header className="sticky top-0 z-40 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center shadow-lg shadow-emerald-500/20">
+            {/* LOGO BACKGROUND UPDATED TO #10A5F5 */}
+            <div className="w-8 h-8 bg-[#10A5F5] rounded-lg flex items-center justify-center shadow-lg shadow-[#10A5F5]/20">
               <Gamepad2 className="w-5 h-5 text-black" />
             </div>
-            <span className="text-xl font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
+            {/* "SCIENCE" TEXT UPDATED TO #10A5F5 */}
+            <span className="text-xl font-bold tracking-tight">Capybara<span className="text-[#10A5F5]">Science</span></span>
           </div>
 
           <div className="relative flex-1 max-w-md mx-8 hidden md:block">
@@ -95,7 +96,8 @@ function App() {
                     }`}
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <div className="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center shadow-xl shadow-emerald-500/40 transform translate-y-4 group-hover:translate-y-0 transition-transform">
+                    {/* HOVER PLAY BUTTON UPDATED TO #10A5F5 */}
+                    <div className="w-12 h-12 bg-[#10A5F5] rounded-full flex items-center justify-center shadow-xl shadow-[#10A5F5]/40 transform translate-y-4 group-hover:translate-y-0 transition-transform">
                       <Play className="w-6 h-6 text-black fill-current" />
                     </div>
                   </div>
@@ -123,7 +125,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-6 opacity-50">
             <Gamepad2 className="w-5 h-5" />
-            <span className="text-lg font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
+            {/* FOOTER "SCIENCE" TEXT UPDATED TO #10A5F5 */}
+            <span className="text-lg font-bold tracking-tight">Capybara<span className="text-[#10A5F5]">Science</span></span>
           </div>
           <p className="text-zinc-500 text-sm max-w-md mx-auto">
             A perfect place to play unblocked games in class.
