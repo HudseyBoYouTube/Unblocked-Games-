@@ -280,20 +280,6 @@
     "category": "Strategy"
   },
   {
-    "id": "bloonstd4",
-    "title": "Bloons TD 4",
-    "url": "https://service.fcpchurch.org/assets/storage/flash/btd4/",
-    "thumbnail": "https://gameforge.com/de-DE/littlegames/includes/images/games/13426_5ec634fec15e3.jpg",
-    "category": "Strategy"
-  },
-  {
-    "id": "bloonstd5",
-    "title": "Bloons TD 5",
-    "url": "https://service.fcpchurch.org/assets/storage/flash/btd5/",
-    "thumbnail": "https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-256776-52.jpg",
-    "category": "Strategy"
-  },
-  {
     "id": "deadlydecent",
     "title": "Deadly Decent",
     "url": "https://db.duck.deepresearch2markdown.com/html/deadly_descent/",
@@ -350,13 +336,6 @@
     "category": "Arcade"
   },
   {
-    "id": "adventurecapitalist",
-    "title": "AdVenture Capitalist",
-    "url": "https://service.fcpchurch.org/assets/storage/webgl/adcap/",
-    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/f/f3/AdVenture_Capitalist_%28App_Icon%29.jpg/revision/latest?cb=20220627125253",
-    "category": "Idle"
-  },
-  {
     "id": "baconmaydie",
     "title": "Bacon May Die",
     "url": "https://hoverfc.com/assets/storage/webgl/bmd/",
@@ -369,27 +348,6 @@
     "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/117.html",
     "thumbnail": "https://imgs.crazygames.com/space-waves_1x1/20241203031650/space-waves_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
     "category": "Skill"
-  },
-  {
-    "id": "bigshotboxing",
-    "title": "Bix Shot Boxing",
-    "url": "https://service.fcpchurch.org/assets/storage/html/bsb/",
-    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/cd1782b250f70b01d6c054fc6e6ae258683dfc3eb657604d9986495403e4d671/big-shot-boxing.png",
-    "category": "Sports"
-  },
-  {
-    "id": "escaperoad",
-    "title": "Escape Road",
-    "url": "https://service.fcpchurch.org/assets/storage/html/eroad/",
-    "thumbnail": "https://imgs.crazygames.com/escape-road-asm_1x1/20250724105032/escape-road-asm_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
-    "category": "Driving"
-  },
-  {
-    "id": "escaperoad2",
-    "title": "Escape Road 2",
-    "url": "https://service.fcpchurch.org/assets/storage/html/eroad2/",
-    "thumbnail": "https://imgs.crazygames.com/escape-road-2_1x1/20251121100622/escape-road-2_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
-    "category": "Driving"
   },
   {
     "id": "linerider",
