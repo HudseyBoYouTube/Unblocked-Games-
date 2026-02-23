@@ -59,11 +59,8 @@ function App() {
             />
           </div>
 
-          <div className="flex items-center gap-4">
-            <span className="text-xs font-medium text-zinc-500 uppercase tracking-widest hidden sm:block">
-              {filteredGames.length} Games Available
-            </span>
-          </div>
+          {/* RIGHT SIDE HEADER EMPTY (GAMES COUNT REMOVED) */}
+          <div className="w-8 h-8 md:block hidden"></div> 
         </div>
       </header>
 
@@ -104,7 +101,6 @@ function App() {
                     <h3 className="font-semibold text-zinc-100 group-hover:text-emerald-400 transition-colors">
                       {game.title}
                     </h3>
-                    {/* CATEGORY TAG UPDATED TO #10A5F5 */}
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#10A5F5] px-2 py-0.5 bg-[#10A5F5]/10 rounded-md">
                       {game.category}
                     </span>
