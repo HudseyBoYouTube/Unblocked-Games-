@@ -22,5 +22,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors;
+  /* Changed from zinc-800 to your branding blue */
+  background-color: #10A5F5;
+  @apply rounded-full transition-colors;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* A slightly darker blue for the hover effect */
+  background-color: #0d84c4;
 }
