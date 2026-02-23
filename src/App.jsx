@@ -38,14 +38,17 @@ function App() {
   };
 
   return (
+    /* REVERTED: selection color remains emerald */
     <div className="min-h-screen bg-[#0a0a0a] text-zinc-100 font-sans selection:bg-emerald-500/30">
       <header className="sticky top-0 z-40 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center shadow-lg shadow-emerald-500/20">
+            {/* UPDATED: Logo background and shadow set to #10A5F5 */}
+            <div className="w-8 h-8 bg-[#10A5F5] rounded-lg flex items-center justify-center shadow-lg shadow-[#10A5F5]/20">
               <Gamepad2 className="w-5 h-5 text-black" />
             </div>
-            <span className="text-xl font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
+            {/* UPDATED: CapybaraScience text set to #10A5F5 */}
+            <span className="text-xl font-bold tracking-tight">Capybara<span className="text-[#10A5F5]">Science</span></span>
           </div>
 
           <div className="relative flex-1 max-w-md mx-8 hidden md:block">
@@ -55,6 +58,7 @@ function App() {
               placeholder="Search games..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
+              /* REVERTED: Search bar focus remains emerald */
               className="w-full bg-white/5 border border-white/10 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:border-emerald-500/50 transition-colors"
             />
           </div>
@@ -90,47 +94,4 @@ function App() {
                     alt={game.title}
                     referrerPolicy="no-referrer"
                     className={`w-full h-full transition-transform duration-500 group-hover:scale-110 ${
-                      ['Community', 'sandspiel'].includes(game.id) || game.category === 'Community' ? 'object-contain' : 'object-cover'
-                    }`}
-                  />
-                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <div className="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center shadow-xl shadow-emerald-500/40 transform translate-y-4 group-hover:translate-y-0 transition-transform">
-                      <Play className="w-6 h-6 text-black fill-current" />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-4">
-                  <div className="flex items-center justify-between mb-1">
-                    <h3 className="font-semibold text-zinc-100 group-hover:text-emerald-400 transition-colors">
-                      {game.title}
-                    </h3>
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-500/80 px-2 py-0.5 bg-emerald-500/10 rounded-md">
-                      {game.category}
-                    </span>
-                  </div>
-                  <p className="text-xs text-zinc-500">
-                    {['request', 'report'].includes(game.id) ? 'Click to fill out instantly' : 'Click to play instantly'}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </div>
-      </main>
-
-      <footer className="border-t border-white/5 py-12 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex items-center justify-center gap-2 mb-6 opacity-50">
-            <Gamepad2 className="w-5 h-5" />
-            <span className="text-lg font-bold tracking-tight">Capybara<span className="text-emerald-500">Science</span></span>
-          </div>
-          <p className="text-zinc-500 text-sm max-w-md mx-auto">
-            A perfect place to play unblocked games in class.
-          </p>
-        </div>
-      </footer>
-    </div>
-  );
-}
-
-export default App;
+                      ['Community', 'sandspiel'].includes(game.id) || game.category === 'Community' ? 'object-
