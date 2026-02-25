@@ -572,5 +572,12 @@
     "url": "https://uhidk.infotechnology.com/games/subway-surfers/index.html",
     "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/7f4c7dc492227ec127a47e4b3197754e/subway-surfers.png",
     "category": "Arcade"
+  },
+  {
+    "id": "ngon",
+    "title": "n-gon",
+    "url": "https://uhidk.infotechnology.com/games/n-gon/index.html",
+    "thumbnail": "https://img.itch.zone/aW1hZ2UvNTE5MDkwLzEyMzMyODU5LnBuZw==/original/RGApqj.png",
+    "category": "Action"
   }
 ]
