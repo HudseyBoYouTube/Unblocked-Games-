@@ -1,3 +1,4 @@
+
 [
   {
     "id": "request",
@@ -37,7 +38,7 @@
   {
     "id": "cookieclicker",
     "title": "Cookie Clicker",
-    "url": "https://hoverfc.com/assets/storage/html/cc/",
+    "url": "https://uhidk.infotechnology.com/games/cookie-clicker/index.html",
     "thumbnail": "https://images.weserv.nl/?url=https://play-lh.googleusercontent.com/Z1MOuuiD05ZN5LkVmMEvKF0mqAc-FknaQ2j8s4dZiO-LSPQX4EEA3RVJdlQEtxe96ok&w=240&h=240&fit=cover",
     "category": "Idle"
   },
@@ -318,7 +319,7 @@
     "id": "escapecar",
     "title": "Escape Car",
     "url": "https://db.duck.deepresearch2markdown.com/html/escape_car/",
-    "thumbnail": "https://azgames.io/upload/imgs/escaperoad.png",
+    "thumbnail": "https://unblocked-games.s3.amazonaws.com/media/posts/679/escape-car-game.webp",
     "category": "Driving"
   },
   {
@@ -485,7 +486,7 @@
   {
     "id": "minecraft(fake)",
     "title": "Minecraft (fake)",
-    "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/minecraft1.8.8.html",
+    "url": "https://uhidk.infotechnology.com/gamefile/1.8.8.html",
     "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/f/f9/Minecraft_Bedrock_icon.svg/revision/latest/scale-to-width-down/250?cb=20230924021517",
     "category": "Creative"
   },
@@ -565,5 +566,26 @@
     "url": "https://landon.infotechnology.com/games/skibidi-shooter/index.html",
     "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/05cee9fd5cd50ccced66cd992dffeb1b/skibidi-shooter.png",
     "category": "Brainrot"
+  },
+  {
+    "id": "subwaysurfers",
+    "title": "Subway Surfers",
+    "url": "https://uhidk.infotechnology.com/games/subway-surfers/index.html",
+    "thumbnail": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/7f4c7dc492227ec127a47e4b3197754e/subway-surfers.png",
+    "category": "Arcade"
+  },
+  {
+    "id": "ngon",
+    "title": "n-gon",
+    "url": "https://uhidk.infotechnology.com/games/n-gon/index.html",
+    "thumbnail": "https://img.itch.zone/aW1hZ2UvNTE5MDkwLzEyMzMyODU5LnBuZw==/original/RGApqj.png",
+    "category": "Action"
+  },
+  {
+    "id": "csgoclicker",
+    "title": "CSGO Clicker",
+    "url": "https://uhidk.infotechnology.com/games/csgo-clicker/index.html",
+    "thumbnail": "https://avatars.githubusercontent.com/u/39322951?s=280&v=4",
+    "category": "Idle"
   }
 ]
