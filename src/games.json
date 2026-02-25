@@ -37,7 +37,7 @@
   {
     "id": "cookieclicker",
     "title": "Cookie Clicker",
-    "url": "https://hoverfc.com/assets/storage/html/cc/",
+    "url": "https://uhidk.infotechnology.com/games/cookie-clicker/index.html",
     "thumbnail": "https://images.weserv.nl/?url=https://play-lh.googleusercontent.com/Z1MOuuiD05ZN5LkVmMEvKF0mqAc-FknaQ2j8s4dZiO-LSPQX4EEA3RVJdlQEtxe96ok&w=240&h=240&fit=cover",
     "category": "Idle"
   },
@@ -579,5 +579,12 @@
     "url": "https://uhidk.infotechnology.com/games/n-gon/index.html",
     "thumbnail": "https://img.itch.zone/aW1hZ2UvNTE5MDkwLzEyMzMyODU5LnBuZw==/original/RGApqj.png",
     "category": "Action"
+  },
+  {
+    "id": "csgoclicker",
+    "title": "CSGO Clicker",
+    "url": "https://uhidk.infotechnology.com/games/csgo-clicker/index.html",
+    "thumbnail": "https://avatars.githubusercontent.com/u/39322951?s=280&v=4",
+    "category": "Idle"
   }
 ]
