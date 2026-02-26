@@ -1,4 +1,3 @@
-
 [
   {
     "id": "request",
@@ -246,7 +245,7 @@
     "category": "Skill"
   },
   {
-    "id": "baldi's basics",
+    "id": "baldis-basics",
     "title": "Baldi's Basics",
     "url": "https://solidwriting.itafricagroup.com/books/files/baldis-basics/index.html",
     "thumbnail": "https://fontmeme.com/images/badis-basics-font.png",
@@ -346,7 +345,7 @@
   {
     "id": "spacewaves",
     "title": "Space Waves",
-    "url": "https://play.coolmathgames.eu.org.cdn.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/117.html",
+    "url": "https://play.coolmathgames.eu.org.cloudflare.net/pages/other/interpreter/index.html?url=https://cdn.jsdelivr.net/gh/gn-math/html@main/117.html",
     "thumbnail": "https://imgs.crazygames.com/space-waves_1x1/20241203031650/space-waves_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
     "category": "Skill"
   },
@@ -540,7 +539,7 @@
     "category": "Arcade"
   },
   {
-    "id": "don'tyoulecturemewithyourthirtydollarwebsite",
+    "id": "thirtydollar",
     "title": "THIRTY DOLLAR",
     "url": "https://landon.infotechnology.com/games/30dolar/index.html",
     "thumbnail": "https://em-content.zobj.net/source/apple/81/moyai_1f5ff.png",
@@ -582,7 +581,6 @@
     "category": "Action"
   },
   {
-    {
     "id": "csgoclicker",
     "title": "CSGO Clicker",
     "url": "https://uhidk.infotechnology.com/games/csgo-clicker/index.html",
@@ -590,7 +588,7 @@
     "category": "Idle"
   },
   {
-    "id": "1v1.lol",
+    "id": "1v1lol",
     "title": "1v1.LOL",
     "url": "https://uhidk.infotechnology.com/gamefile/1v1.html",
     "thumbnail": "https://assets.about.me/background/users/u/n/b/unblockedgame1v1lol_1722245404_678.jpg",
