@@ -582,10 +582,18 @@
     "category": "Action"
   },
   {
+    {
     "id": "csgoclicker",
     "title": "CSGO Clicker",
     "url": "https://uhidk.infotechnology.com/games/csgo-clicker/index.html",
     "thumbnail": "https://avatars.githubusercontent.com/u/39322951?s=280&v=4",
     "category": "Idle"
+  },
+  {
+    "id": "1v1.lol",
+    "title": "1v1.LOL",
+    "url": "https://uhidk.infotechnology.com/gamefile/1v1.html",
+    "thumbnail": "https://assets.about.me/background/users/u/n/b/unblockedgame1v1lol_1722245404_678.jpg",
+    "category": "Action"
   }
 ]
