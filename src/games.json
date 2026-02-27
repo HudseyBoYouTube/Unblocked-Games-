@@ -14,7 +14,7 @@
     "category": "Community"
   },
   {
-    "id": "1",
+    "id": "flappybird",
     "title": "Flappy Bird",
     "url": "https://voided-shielf.gravityenergygenerator.com/assets/games/flappybird.html",
     "thumbnail": "https://images.weserv.nl/?url=https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png&w=240&h=240&fit=cover",
@@ -516,13 +516,6 @@
     "url": "https://lum.815moniquelane.cfd/projects/ritz/index.html",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Putin_on_the_Ritz.jpg/250px-Putin_on_the_Ritz.jpg",
     "category": "Meme"
-  },
-  {
-    "id": "growagarden(fake)",
-    "title": "Grow A Garden (fake)",
-    "url": "https://hoverfc.com/assets/storage/webgl/gag/",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Grow_a_Garden_thumbnail_2.webp/421px-Grow_a_Garden_thumbnail_2.webp.png",
-    "category": "Skill"
   },
   {
     "id": "doodlejump",
