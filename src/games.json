@@ -586,5 +586,26 @@
     "url": "https://uhidk.infotechnology.com/gamefile/1v1.html",
     "thumbnail": "https://assets.about.me/background/users/u/n/b/unblockedgame1v1lol_1722245404_678.jpg",
     "category": "Action"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "url": "https://uhidk.infotechnology.com/games/2048/index.html",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/18/2048_logo.svg",
+    "category": "Puzzle"
+  },
+  {
+    "id": "basketballstars",
+    "title": "Basketball Stars",
+    "url": "https://uhidk.infotechnology.com/games/basketballstars/index.html",
+    "thumbnail": "https://m.media-amazon.com/images/I/81BL1Hx2KuL.png",
+    "category": "Sports"
+  },
+  {
+    "id": "googlebaseball",
+    "title": "Google Baseball",
+    "url": "https://uhidk.infotechnology.com/gamefile/gbase.html",
+    "thumbnail": "https://pbs.twimg.com/media/D-jdlA6W4AE78L3.jpg",
+    "category": "Sports"
   }
 ]
